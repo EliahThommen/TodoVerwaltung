@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Content */
+textarea {
+  resize: none;
+}
+
+/* Navbar */
+.navbar .navbar-text {
+  padding-right: 2rem;
+}
+.navbar .navbar-btn {
+  margin-right: 0rem;
+}
+.navbar .navbar-brand {
+  padding: 1rem;
+}
+.navbar .navbar-brand-logo {
+  height: 35px;
+  min-height: 35px;
+}
+
+/* Table */
+.table-row {
+  background-color: red;
+}
+.table-row-header-col.id {
+  background-color: green;
+}
+.table-row-col-button-delete-img {
+  width: 2rem;
+}
+.table-row-col-button-edit-img {
+  width: 2rem;
+}

@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Content */
+
+textarea {
+    resize: none;
+}
+
+
+
+/* Navbar */
+
+.navbar {
+
+    .navbar-text {
+        padding-right: 2rem;
+    }
+
+    .navbar-btn {
+        margin-right: 0rem;
+    }
+
+    .navbar-brand {
+        padding: 1rem;
+
+        &-logo {
+            height: 35px;
+            min-height: 35px;
+        }
+    }
+}
+
+/* Table */
+.table {
+
+    &-row {
+        background-color: red;
+
+        &-header {
+
+            &-col {
+
+                &.id {
+                    background-color: green;
+                }
+            }
+        }
+
+        &-col-button {
+            &-delete-img {
+                width: 2rem;
+            }
+
+            &-edit-img {
+                width: 2rem;
+            }
+        }
+    }
+}
